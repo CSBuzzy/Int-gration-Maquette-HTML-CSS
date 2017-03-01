@@ -1,0 +1,200 @@
+body {
+background: -moz-linear-gradient(left, rgba(0,0,0,1) 11%, rgba(6,6,6,1) 12%, rgba(255,255,255,0.99) 51%, rgba(0,0,0,0.99) 87%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(0,0,0,1) 11%,rgba(6,6,6,1) 12%,rgba(255,255,255,0.99) 51%,rgba(0,0,0,0.99) 87%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(0,0,0,1) 11%,rgba(6,6,6,1) 12%,rgba(255,255,255,0.99) 51%,rgba(0,0,0,0.99) 87%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#fc000000',GradientType=1 ); /* IE6-9 */
+
+}
+
+.container global {
+/*position:relative;
+margin:0 auto;
+width:720px;
+/*height:2955px;*/
+}
+
+.container {
+    margin:0 auto; /*  la hauteur et les côtés*/
+    width:720px; /* largeur du container =>largeur de l'image en regardant propriété image*/
+    display:flex;
+    background: url(img/title.jpg), url(img/middle.jpg), url('img/footer.gif'), url(img/full.jpg);
+    background-repeat:no-repeat, no-repeat, no-repeat, repeat-y;
+    background-position: top right, 404px 0, bottom left 110%, center;
+}
+
+.gauche {       /*Bloc de gauche*/
+    width:404px;
+    margin-left:20px;
+    padding:20px;
+    margin:0;
+    margin-top:-40px;
+}
+
+.droite {       /*Bloc de droite*/
+    width:316px;
+    margin-top: 372px;
+    margin:0;
+}
+
+h1 {            /*Les  gros titres*/
+    border-top:4px solid yellow;
+    color:white;
+    font-family:'Arial Black';
+    font-style:bold;
+    font-size:20px;
+    line-height:20px;
+    margin-top:30px;
+}
+
+.sousTitreG {    /*Les sous-titres bloc gauche*/
+    color:black;
+    font-family:'Arial Black';
+    background-color: yellow;
+    font-size:12px;
+    margin-top:-10px;
+}
+
+.sousTitreD {    /*Les sous-titres bloc droit*/
+    color:deeppink;
+    font-family:'Arial Black';
+    background-color: yellow;
+    font-size:12px;
+
+}
+
+
+.skateUn{       /*Image skate*/
+    border:2px solid yellow;
+    margin:4px;
+    padding:2px;
+    float:left;
+}
+
+.skateDeux{     /*Image skate*/
+    border:2px solid yellow;
+    margin:4px;
+    padding:2px;
+    float:right;
+}
+
+p {             /*Tous les paragraphes*/
+    color:white;
+    font-family: Arial, sans-serif;
+    font-size:12px;
+}
+
+span {              /*Tous les mots en jaune*/
+    color:yellow;
+}
+
+blockquote {           
+border-top:2px solid yellow;
+border-bottom:2px solid yellow;
+background-color: #2D2C2C;
+color:white;
+}
+
+li {            /*Toutes les listes*/
+color:white;
+}
+
+.listeLosange {       
+list-style-image: url(img/bullet.gif);
+}
+
+
+.menu{
+display:flex;
+margin-right:20px;
+      
+}
+
+.menuDefilant ul {
+list-style-type: none;
+background-color:#141514;
+padding:0;
+color:#656A69;
+margin:10px;
+
+}
+
+h2 {
+color:white;
+font-size:14px;
+margin:10px;
+margin-top:30px;
+}
+
+.menuDefilant li { 
+border-top:1px solid dimgrey;
+margin-top:12px;
+padding:5px;
+color:#656A69;
+width:150px;
+}
+
+.freeStyle {        /*LOGO*/
+color:white;
+font-family:'Arial Black', sans-serif;
+font-size:50px;
+background-position: top right;
+text-align:center;
+margin-top:80px;
+line-height:40px;
+width:286px;
+height:372;
+}
+
+.listeD1{           /*Liste bloc droit avec étoiles*/
+    list-style-image: url(img/star1.jpg);
+    font-family: 'Arial Black', sans-serif;
+    margin:40px;
+    margin-top:-80px;
+    
+}
+
+.TitreUpdate, .TitreItem  {
+    width:80%;
+    margin-left:10px;
+    
+}
+
+.sousTitreD {
+padding:0;
+margin:0;
+}
+
+
+.Update, .Item {
+    border:4px solid yellow;
+    margin-left:10px;
+    width:80%;
+    line-height:30px;
+}
+
+.listeD2    {           /*Liste bloc droit Updates*/
+    font-size:12px;
+    font-family: 'Arial Black', sans-serif;
+    list-style-type: none;   
+    height: 450px;    
+}
+
+.miniFooter {       /*Les footers de chaque "article"*/
+    font-family:'Arial Black',sans-serif;
+    line-height:2px;
+}
+
+/*FOOTER*/
+
+footer  {
+/*margin-left:800px;
+margin-top:-288px;*/
+}    
+   
+
+.footerP {
+margin-top:-20px;
+/*margin-left:40px;*/
+margin-left:30%;
+
+}
